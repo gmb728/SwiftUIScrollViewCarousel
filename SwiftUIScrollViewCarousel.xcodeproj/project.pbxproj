@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DD72A72C24122B9700B41E13 /* SwiftUIScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD72A72C24122B9700B41E13 /* SwiftUIScrollViewCarousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SwiftUIScrollViewCarousel.app; path = "/Users/changsophia/Documents/Swift/SwiftUI/SwiftUIScrollViewCarousel/build/Debug-iphoneos/SwiftUIScrollViewCarousel.app"; sourceTree = "<absolute>"; };
 		DD72A72F24122B9700B41E13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD72A73124122B9700B41E13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DD72A73324122B9700B41E13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,20 +42,11 @@
 		DD72A72324122B9700B41E13 = {
 			isa = PBXGroup;
 			children = (
-				DD72A72E24122B9700B41E13 /* SwiftUIScrollView */,
-				DD72A72D24122B9700B41E13 /* Products */,
+				DD72A72E24122B9700B41E13 /* SwiftUIScrollViewCarousel */,
 			);
 			sourceTree = "<group>";
 		};
-		DD72A72D24122B9700B41E13 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DD72A72C24122B9700B41E13 /* SwiftUIScrollView.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		DD72A72E24122B9700B41E13 /* SwiftUIScrollView */ = {
+		DD72A72E24122B9700B41E13 /* SwiftUIScrollViewCarousel */ = {
 			isa = PBXGroup;
 			children = (
 				DD72A72F24122B9700B41E13 /* AppDelegate.swift */,
@@ -67,7 +58,7 @@
 				DD72A73D24122B9900B41E13 /* Info.plist */,
 				DD72A73724122B9900B41E13 /* Preview Content */,
 			);
-			path = SwiftUIScrollView;
+			path = SwiftUIScrollViewCarousel;
 			sourceTree = "<group>";
 		};
 		DD72A73724122B9900B41E13 /* Preview Content */ = {
@@ -81,9 +72,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD72A72B24122B9700B41E13 /* SwiftUIScrollView */ = {
+		DD72A72B24122B9700B41E13 /* SwiftUIScrollViewCarousel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD72A74024122B9900B41E13 /* Build configuration list for PBXNativeTarget "SwiftUIScrollView" */;
+			buildConfigurationList = DD72A74024122B9900B41E13 /* Build configuration list for PBXNativeTarget "SwiftUIScrollViewCarousel" */;
 			buildPhases = (
 				DD72A72824122B9700B41E13 /* Sources */,
 				DD72A72924122B9700B41E13 /* Frameworks */,
@@ -93,9 +84,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftUIScrollView;
+			name = SwiftUIScrollViewCarousel;
 			productName = SwiftUIScrollView;
-			productReference = DD72A72C24122B9700B41E13 /* SwiftUIScrollView.app */;
+			productReference = DD72A72C24122B9700B41E13 /* SwiftUIScrollViewCarousel.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DD72A72724122B9700B41E13 /* Build configuration list for PBXProject "SwiftUIScrollView" */;
+			buildConfigurationList = DD72A72724122B9700B41E13 /* Build configuration list for PBXProject "SwiftUIScrollViewCarousel" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,11 +113,11 @@
 				Base,
 			);
 			mainGroup = DD72A72324122B9700B41E13;
-			productRefGroup = DD72A72D24122B9700B41E13 /* Products */;
+			productRefGroup = DD72A72324122B9700B41E13;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD72A72B24122B9700B41E13 /* SwiftUIScrollView */,
+				DD72A72B24122B9700B41E13 /* SwiftUIScrollViewCarousel */,
 			);
 		};
 /* End PBXProject section */
@@ -289,15 +280,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIScrollView/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIScrollViewCarousel/Preview Content\"";
 				DEVELOPMENT_TEAM = 3M66U64HQ4;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUIScrollView/Info.plist;
+				INFOPLIST_FILE = SwiftUIScrollViewCarousel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmb728.SwiftUIScrollView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmb728.SwiftUIScrollViewCarousel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,15 +300,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIScrollView/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIScrollViewCarousel/Preview Content\"";
 				DEVELOPMENT_TEAM = 3M66U64HQ4;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUIScrollView/Info.plist;
+				INFOPLIST_FILE = SwiftUIScrollViewCarousel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmb728.SwiftUIScrollView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmb728.SwiftUIScrollViewCarousel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -327,7 +318,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD72A72724122B9700B41E13 /* Build configuration list for PBXProject "SwiftUIScrollView" */ = {
+		DD72A72724122B9700B41E13 /* Build configuration list for PBXProject "SwiftUIScrollViewCarousel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD72A73E24122B9900B41E13 /* Debug */,
@@ -336,7 +327,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD72A74024122B9900B41E13 /* Build configuration list for PBXNativeTarget "SwiftUIScrollView" */ = {
+		DD72A74024122B9900B41E13 /* Build configuration list for PBXNativeTarget "SwiftUIScrollViewCarousel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD72A74124122B9900B41E13 /* Debug */,
